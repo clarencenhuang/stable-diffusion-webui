@@ -14,7 +14,7 @@ sudo yum install git-lfs -y
 sudo -u ec2-user git lfs install --skip-smudge
 
 # Install OpenSSL 1.1.1
-mkdir /opt
+mkdir -p /opt
 cd /opt
 curl https://ftp.openssl.org/source/old/1.1.1/openssl-1.1.1j.tar.gz --output openssl.tar.gz
 tar xzf openssl.tar.gz
