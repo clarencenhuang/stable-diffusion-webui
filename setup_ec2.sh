@@ -33,7 +33,10 @@ make
 sudo make altinstall
 
 
+
 # clone stable diffusion UX
+mkdir -p /www
+cd /www
 git clone https://github.com/clarencenhuang/stable-diffusion-webui.git
 
 # download the SD model v2.1 and move it to the SD model directory
