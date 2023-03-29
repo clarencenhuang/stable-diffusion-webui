@@ -159,7 +159,7 @@ def webui():
 
         setup_cors(app)
 
-        app.add_middleware(GZipMiddleware, minimum_size=1000)
+        #app.add_middleware(GZipMiddleware, minimum_size=1000)
 
         if launch_api:
             create_api(app)
