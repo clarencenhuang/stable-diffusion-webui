@@ -21,7 +21,7 @@ clean-fid==0.1.29
 resize-right==0.0.2
 torchdiffeq==0.2.3
 kornia==0.6.7
-lark==1.1.2
+lark==1.1.5
 inflection==0.5.1
 GitPython==3.1.27
 torchsde==0.2.5
