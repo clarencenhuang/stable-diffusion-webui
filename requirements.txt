@@ -1,4 +1,5 @@
 accelerate
+fastapi
 basicsr
 fairscale==0.4.4
 fonts
